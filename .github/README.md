@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-apigatewayv2`](https://www.npmjs.com/package/@aws-sdk/client-apigatewayv2/v/3.514.0).
+[`@aws-sdk/client-apigatewayv2`](https://www.npmjs.com/package/@aws-sdk/client-apigatewayv2/v/3.515.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.514.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.515.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-kmCpdwQ3vja2s/pGZ/E1e1Yq00KjSaPjz6KglrFby+bJ4TuAny3wBAJFW9qE5XK3
+sha384-AWV3Ym4kgel89qi1086qOEOwZdZXlpNVHSh6Ji6pZuLmmZh1R9Y/CU37cAQ7cDSW
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-apigatewayv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.514.0/index.min.mjs"
+            "@aws-sdk/client-apigatewayv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.515.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.514.0/index.min.mjs": "sha384-kmCpdwQ3vja2s/pGZ/E1e1Yq00KjSaPjz6KglrFby+bJ4TuAny3wBAJFW9qE5XK3"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.515.0/index.min.mjs": "sha384-AWV3Ym4kgel89qi1086qOEOwZdZXlpNVHSh6Ji6pZuLmmZh1R9Y/CU37cAQ7cDSW"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-apigatewayv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.514.0/index.min.mjs"
+                        "@aws-sdk/client-apigatewayv2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.515.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.514.0/index.min.mjs": "sha384-kmCpdwQ3vja2s/pGZ/E1e1Yq00KjSaPjz6KglrFby+bJ4TuAny3wBAJFW9qE5XK3"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apigatewayv2@3.515.0/index.min.mjs": "sha384-AWV3Ym4kgel89qi1086qOEOwZdZXlpNVHSh6Ji6pZuLmmZh1R9Y/CU37cAQ7cDSW"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.514.0`)
+* Always pin to a specific version (`@3.515.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-apigatewayv2/blob/refs/tags/3.514.0/LICENSE
+https://github.com/cloud-sdk-builds/client-apigatewayv2/blob/refs/tags/3.515.0/LICENSE
 ```
 
 ---
